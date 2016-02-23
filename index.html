@@ -18,9 +18,9 @@
 
         var draw = function () {
             ctx.fillStyle='rgba(0,0,0,.05)';
-            ctx.fillRect(0,0,width,height);
+            ctx.fillRect(0,0,height,width);
             ctx.fillStyle='#0F0';
-            ctx.font = '10pt Faux Chinese';
+            ctx.font = '10pt Georgia';
             yPositions.map(function(y, index){
                 text = String.fromCharCode(1e2+Math.random()*33);
                 x = (index * 10)+10;
